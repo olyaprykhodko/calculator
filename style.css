@@ -1,3 +1,56 @@
+@media (max-width: 768px) {
+    .input-a {
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    .num-a {
+        width: 100px;
+        height: 50px;
+        border: 2px solid black;
+    }
+    
+    .operator {
+        margin-bottom: 10px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .oper {
+        height: 30px;
+        width: 70px;
+    }
+    
+    .num-b {
+        width: 100px;
+        height: 50px;
+        border: 2px solid black;
+        margin-right: 20px;
+    }
+    
+    .equal {
+        color: grey;
+        display: flex;
+        align-content: center;
+        margin-right: 20px;
+    }
+    
+    .result {
+        display: flex;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        align-items: center;
+        font-size: 20px;
+    }
+    
+    .container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+}
+
 .header {
     margin: 100px;
     display: flex;
@@ -48,9 +101,6 @@
     font-size: 20px;
 }
 
-.sign {
-
-}
 .container {
     display: flex;
     align-content: center;
